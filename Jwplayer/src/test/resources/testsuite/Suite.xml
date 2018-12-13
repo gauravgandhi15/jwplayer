@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Suite" verbose="10">
+
+	<test name="DemoTest" preserve-order="true" parallel="instances"
+		verbose="2">
+		<classes>
+			<class name="com.test.DemoScript" />
+		</classes>
+	</test>
+</suite>
